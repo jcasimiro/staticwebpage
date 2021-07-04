@@ -1,5 +1,5 @@
 - name: Copy folder content recursively to remote
-        uses: garygrossgarten/github-action-scp@release
+        uses: appleboy/scp-action@v0.0.1
         with:
           local: index.html styles.css
           remote: /var/www/html
