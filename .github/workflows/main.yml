@@ -15,6 +15,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         source: "index.html,styles.css"
-        target: "/var/www/html/"
+        target: "/var/www/joseamilcarcasimiro.com/"
 
 
