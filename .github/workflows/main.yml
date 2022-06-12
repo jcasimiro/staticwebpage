@@ -14,7 +14,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "index.html,styles.css,blog/*"
+        source: "index.html,styles.css,blog/*,img/*"
         target: "/var/www/joseamilcarcasimiro.com/"
 
 
